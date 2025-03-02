@@ -1,6 +1,6 @@
-import dotenv from "dotenv";
-dotenv.config();
-const apiKey = process.env.API-KEY ;
+// import dotenv from "dotenv";
+// dotenv.config();
+// const apiKey = process.env.API-KEY ;
 
 
 
@@ -23,9 +23,11 @@ async function getLatestNews() {
             newsItemDiv.classList.add("new-article");
             newsItemDiv.innerHTML=`
             <img  src="${article.urlToImage}" alt="">
-                <h1>${ article.title}</h1>
+                <h1> <a href= ${article.url}></a> ${ article.title} </h1>
                 <p> ${article.description}</p>
-                <button class="showmore" type="submit"> Read more</button>
+               <button><a href="${article.url}"> Readmore</a> </button>
+                 
+                
             `;
             newsContainer.appendChild(newsItemDiv);
         });
@@ -63,6 +65,7 @@ async function getPoliticalNews()  {
             <img  src="${article.urlToImage}" alt="">
                 <h1>${ article.title}</h1>
                 <p> ${article.description}</p>
+                <button><a href="${article.url}"> Readmore</a> </button>
             `;
             newsContainer.appendChild(newsItemDiv);
         });
@@ -96,6 +99,7 @@ async function getBusinessNews() {
             <img  src="${article.urlToImage}" alt="">
                 <h1>${ article.title}</h1>
                 <p> ${article.description}</p>
+                <button><a href="${article.url}"> Readmore</a> </button>
             `;
             newsContainer.appendChild(newsItemDiv);
         });
@@ -128,6 +132,7 @@ async function getTechNews()  {
             <img  src="${article.urlToImage}" alt="">
                 <h1>${ article.title}</h1>
                 <p> ${article.description}</p>
+                <button><a href="${article.url}"> Readmore</a> </button>
             `;
             newsContainer.appendChild(newsItemDiv);
         });
@@ -161,6 +166,7 @@ async function getSportsNews()  {
             <img  src="${article.urlToImage}" alt="">
                 <h1>${ article.title}</h1>
                 <p> ${article.description}</p>
+                <button><a href="${article.url}"> Readmore</a> </button>
             `;
             newsContainer.appendChild(newsItemDiv);
         });
@@ -193,6 +199,7 @@ async function getEntNews()  {
             <img  src="${article.urlToImage}" alt="">
                 <h1>${ article.title}</h1>
                 <p> ${article.description}</p>
+                <button><a href="${article.url}"> Readmore</a> </button>
             `;
             newsContainer.appendChild(newsItemDiv);
         });

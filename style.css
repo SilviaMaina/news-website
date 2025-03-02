@@ -96,7 +96,7 @@ nav a:hover {
 }
 
 .search button:hover {
-    background-color:rgb(238, 226, 226);
+    background-color:rgb(201, 208, 215);
     color: black;
 }
 
@@ -147,15 +147,7 @@ nav a:hover {
     grid-template-columns: repeat(3, 1fr);
 
  }
- .entertainment-news {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    max-width: 1200px;
-    margin: auto;
-    grid-template-columns: repeat(3, 1fr);
- }
+ 
  .technology-news {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -185,7 +177,7 @@ nav a:hover {
 }
 
 .new-article:hover {
-    transform: translateY(-5px);
+ transform: translateX();
 }
 
 .new-article img {
@@ -193,6 +185,13 @@ nav a:hover {
     height: 200px;
     object-fit: cover;
     border-radius: 5px;
+}
+.new-article button {
+    border: none;
+    background: white;
+}
+.new-article button a {
+    color :rgb(201, 208, 215);
 }
 
 footer {
