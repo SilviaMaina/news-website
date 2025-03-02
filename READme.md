@@ -34,7 +34,7 @@ git clone https://github.com/your-username/your-repo-name.git
 To use this project, open the index.html file in your web browser. You can also deploy it to a web server to make it accessible or deploy using github.
 
 # Screenshots
-<a href="/assets/screenshot 2.PNG"> Screenshot</a>
+<a href="/assets/news.PNG.PNG"> Screenshot</a>
 # Contributing
 Contributions are welcome! Please follow these steps to contribute:
 <ol>
@@ -48,4 +48,4 @@ Contributions are welcome! Please follow these steps to contribute:
 This project is licensed under the MIT License. See the<a href="LICENSE"> LICENSE</a> file for details.
 # Contact
 sylviahmaina6@gmail.com<br>
-Project Link:https://github.com/SilviaMaina/Vivid-band-website.git
+Project Link:https://github.com/SilviaMaina/news-website.git
